@@ -17,7 +17,7 @@ int main(void){
             }
         }
     }
-    if((a*i)+(b*j)+c*k!=10000) printf("none");
+    if((a*i)+(b*j)+c*k!=money) printf("none");
     return 0;
     
 }
