@@ -3,7 +3,7 @@
 int main(void){
     int money, a=900,b=750,c=200;
     int i,j,k;
-    bool is_correct=false;
+    bool is_correct=0;
     printf("금액 입력:");
     scanf("%d",&money);
     for(i=1;i<=11;i++){
@@ -12,7 +12,7 @@ int main(void){
                 if(k<i||k<j){
                     if((a*i)+(b*j)+(c*k)==money){
                         printf("%d %d %d\n",i,j,k);
-                        is_correct=true;
+                        is_correct=1;
                     } 
                     else;
                 }
